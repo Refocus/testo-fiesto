@@ -6,9 +6,11 @@
     background-position: -32px -64px;	
 }
 .particles-js-canvas-el{
-	background-color: #db3f28;
+	background-color: white;
 	position: relative;
-	height: 400px !important;
+	height: 500px !important;
+    border-top: 25px solid #d13b23;
+    border-bottom: 25px solid #d13b23;
 }
 #particles-js{
 	height: auto;
@@ -27,7 +29,7 @@
 	margin-right: 40px;
 }
 .evi-red-title{
-	background-color:#db3f28;
+	background-color:#d13b23;
 	width: 300px;
 	height: 40px;
 	color: white;
@@ -35,11 +37,49 @@
 	padding-left: 20px;
 	text-align: left;
 }
-
-
-
-
-
+.canvas-textarea{
+	position: absolute;
+    z-index: 1;
+    top: 108px;
+    left: 110px;
+    width: 640px;
+    background-color: rgba(255,255,255,0.8);
+    height: 450px;
+    border-left: 200px solid #d13b23;
+}
+.canvas-heading{
+	padding: 50px 0px 10px 30px;
+    font-size: 3em;
+}
+.canvas-list{
+	padding-left: 26px;
+    padding-bottom: 15px;
+    font-size: 1.2em;
+}
+.canvas-list:before{
+	    content: ">";
+    background-color: #ffffff;
+    color: #d13b23;
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    position: relative;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-right: -16px;
+    left: -68px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.canvas-evi-logo{
+	background-image: url(../assets/evi-logo-red.png);
+    width: 200px;
+    height: 200px;
+    background-size: 100%;
+    position: relative;
+    top: -131px;
+    right: -800px;
+}
 
 
 
