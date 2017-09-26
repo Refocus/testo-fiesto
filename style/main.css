@@ -8,7 +8,7 @@
 .particles-js-canvas-el{
 	background-color: white;
 	position: relative;
-	height: 500px !important;
+	height: 400px !important;
     border-top: 25px solid #d13b23;
     border-bottom: 25px solid #d13b23;
 }
@@ -40,21 +40,21 @@
 .canvas-textarea{
 	position: absolute;
     z-index: 1;
-    top: 108px;
-    left: 110px;
+    top: 107px;
+    left: 70px;
     width: 640px;
     background-color: rgba(255,255,255,0.8);
-    height: 450px;
+    height: 350px;
     border-left: 200px solid #d13b23;
 }
 .canvas-heading{
-	padding: 50px 0px 10px 30px;
-    font-size: 3em;
+	padding: 18px 0px 6px 30px;
+    font-size: 2em;
 }
 .canvas-list{
-	padding-left: 26px;
+	padding-left: 19px;
     padding-bottom: 15px;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 .canvas-list:before{
 	    content: ">";
@@ -67,18 +67,18 @@
     padding-left: 6px;
     padding-right: 6px;
     margin-right: -16px;
-    left: -68px;
+    left: -52px;
     font-size: 1.2em;
     font-weight: 700;
 }
 .canvas-evi-logo{
 	background-image: url(../assets/evi-logo-red.png);
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     background-size: 100%;
     position: relative;
-    top: -131px;
-    right: -800px;
+    top: -96px;
+    right: -655px;
 }
 
 
